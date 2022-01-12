@@ -1,6 +1,6 @@
-# blockchain_go
-ブロックチェーンの基礎を理解するためのリポジトリ
+# own-build
+自分でいろんなOSSとか仕組みを作ってみようとう試みのリポジトリ
 
 ## Ref
-Inspired by below article
-https://jeiwan.net/posts/building-blockchain-in-go-part-1/
+Inspired by below article  
+https://github.com/danistefanovic/build-your-own-x
