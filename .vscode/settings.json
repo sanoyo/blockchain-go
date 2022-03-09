@@ -1,3 +1,6 @@
 {
-    "go.inferGopath": false
+    "go.formatTool": "goimports",
+    "editor.minimap.enabled": false,
+    "go.useLanguageServer": true,
+    "go.toolsEnvVars": {"GOFLAGS": "-tags=linux"}
 }
