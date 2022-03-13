@@ -1,4 +1,4 @@
-package main
+package auth
 
 type Client struct {
 	ID          string
@@ -8,7 +8,7 @@ type Client struct {
 
 type User struct {
 	UserID   int
-	LoginID  int
+	Name     string
 	Password string
 }
 
@@ -34,4 +34,12 @@ type Session struct {
 	State       string
 	Scope       string
 	RedirectUri string
+}
+
+type AuthCode struct {
+	User        string
+	ClientID    string
+	Scope       string
+	RedirectUri string
+	ExpiresAt   int64
 }
